@@ -23,7 +23,7 @@
   
   <h1>Tenho uma Mensagem para você</h1>
   
- <style>
+<style>
   
   h1 {
     font-size: 60px;
@@ -47,6 +47,8 @@
 var mensagem = ('Mensagem de *'  + name +'* para você  '  ) 
 var url1 =  ( '  my-all.top/?' ) 
 
+
+   
 function obterFrase (){
 var r_text = new Array ();
 [r_text[0] ="🙏👉pois o Senhor, o seu Deus, os acompanhará e lutará por vocês contra os seus inimigos, para dar a vitória a vocês'. ",
@@ -73,15 +75,19 @@ r_text[19] =    "🙏👉Portanto, eu digo: Tudo o que vocês pedirem em oraçã
 var i = Math.floor(19*Math.random())
 document.getElementById("sorte").innerHTML = "<p>" + r_text[i] + "</p>";
 
- alert ('Olá '+name2 + mensagem + r_text[i]     + url1   )
-
+alert ('Olá ' + mensagem + r_text[i]     + url1   )
 var zap = "https://api.whatsapp.com/send?text="
-
-var url =  window.open( zap +  ('Olá  ' )   +  name2  +mensagem  + r_text[i] +  ('🙏👉')  +  url1   ) 
-
+var url =  window.open( zap +  ('Olá  ' )     +mensagem  + r_text[i] +  ('🙏👉')  +  url1   ) 
 
 }
+
+
+
+
+
+
   </script>
+
 
 
 
@@ -91,24 +97,31 @@ var url =  window.open( zap +  ('Olá  ' )   +  name2  +mensagem  + r_text[i] + 
 
 
 <body>
-       
+  
 <div id="sorte">
-   
-<div id="var"></div>
-
+  
 </div>
 
+
+
+
+</div>
 <form>
-  <input value="Ver mensagem" onclick="obterFrase();" type="button">
-  
+  <input value="Ver mensagem" onclick="obterFrase();" type="button"> 
 
   
+
   </form>
+
+  
+</body>
+
+
+</html>
+
 </body>
 </html>
 <footer>
 <!-- LOMADEE - BEGIN -->
 <script src="//ad.lomadee.com/banners/script.js?sourceId=36271858&dimension=7&height=50&width=320&method=0" type="text/javascript" language="javascript"></script>
 <!-- LOMADEE - END -->
-<footer>
-
