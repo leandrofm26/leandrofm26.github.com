@@ -16,12 +16,12 @@
   <h1>Mensagem para você</h1>
   
 <style>
-  
+
   h1 {
     font-size: 60px;
     font-family: "Open Sans Condensed", sans-serif;
     text-align: center;
-    color: rgb(4, 1, 12);  }                          
+    color: rgb(4, 1, 12);   }                          
 
   
   
@@ -34,10 +34,11 @@
 
     var name = window.prompt('Qual seu Nome?')
 
- 
     
 var mensagem = ('Mensagem de *'  + name +'* para você  '  ) 
+document.write('Olá ' +name )  
 var url1 =  ( '  my-all.top/?' ) 
+
 
 
    
@@ -94,13 +95,57 @@ var url =  window.open( zap +  ('Olá  ' )     +mensagem  + r_text[i] +  ('🙏�
   
 </div>
 
+<script>
+
+     
 
 
+
+   
+function myFunction (){
+var r_text = new Array ();
+[r_text[0] ="🙏👉pois o Senhor, o seu Deus, os acompanhará e lutará por vocês contra os seus inimigos, para dar a vitória a vocês'. ",
+r_text[1] =     "🙏👉Não foi pela espada que conquistaram a terra nem pela força do seu braço que alcançaram a vitória; foi pela tua mão direita, pelo teu braço e pela luz do teu rosto,por causa do teu amor para com eles. És tu, meu Rei e meu Deus!És tu que decretas vitórias para Jacó! ",
+r_text[2] =     "🙏👉Prepara-se o cavalo para o dia da batalha, mas o Senhor é que dá a vitória. Provérbios 21:31",
+r_text[3] =     "🙏👉Tudo posso naquele que me fortalece. Filipenses 4:13",
+r_text[4] =     "🙏👉Com Deus conquistaremos a vitória, e ele pisará os nossos adversários. Salmos 108:13 .",
+r_text[5] =     "🙏👉Pois ainda que o justo caia sete vezes,tornará a erguer-se,mas os ímpios são arrastados pela calamidade. Provérbios 24:16.",
+r_text[6] =     "🙏👉Eu farei de você uma muralha de bronze fortificada diante deste povo; lutarão contra você,mas não o vencerão,pois estou com você para resgatá-lo e salvá-lo,declara o Senhor. Jeremias 15:20",
+r_text[7] =     "🙏👉Se trabalhamos e lutamos é porque temos depositado a nossa esperança no Deus vivo, o Salvador de todos os homens, especialmente dos que creem. 1 Timóteo 4:10",
+r_text[8] =      "🙏👉Alguns confiam em carros e outros em cavalos,mas nós confiamos no nome do Senhor, o nosso Deus. Salmos 20:7.",
+r_text[9] =      "🙏👉Ninguém conseguirá resistir a você todos os dias da sua vida. Assim como estive com Moisés, estarei com você; nunca o deixarei, nunca o abandonarei.Seja forte e corajoso, porque você conduzirá este povo para herdar a terra que prometi sob juramento aos seus antepassados. Josué 1:5-6",
+r_text[10] =     "🙏👉Por isso não tema, pois estou com você;não tenha medo, pois sou o seu Deus.Eu o fortalecerei e o ajudarei;eu o segurarei com a minha mão direita vitoriosa. Isaías 41:10",
+r_text[11] =      "🙏👉Estejam vigilantes, mantenham-se firmes na fé, sejam homens de coragem, sejam fortes. 1 Coríntios 16:13.'",
+r_text[12] =    "🙏👉Sejam fortes e corajosos. Não tenham medo nem fiquem apavorados por causa delas, pois o Senhor, o seu Deus, vai com vocês; nunca os deixará, nunca os abandonará. Deuteronômio 31:6",
+r_text[13] =     "🙏👉Pois estou convencido de que nem morte nem vida, nem anjos nem demônios, nem o presente nem o futuro, nem quaisquer poderes, nem altura nem profundidade, nem qualquer outra coisa na criação será capaz de nos separar do amor de Deus que está em Cristo Jesus, nosso Senhor. Romanos 8:38-39",
+r_text[14] =     "🙏👉Eis que estou à porta e bato. Se alguém ouvir a minha voz e abrir a porta, entrarei e cearei com ele, e ele comigo. Apocalipse 3:20",
+r_text[15] =     "🙏👉Eu farei de você uma muralha de bronze fortificada diante deste povo; lutarão contra você,mas não o vencerão,pois estou com você para resgatá-lo e salvá-lo,declara o Senhor. Jeremias 15:20",
+r_text[16] =     "🙏👉Então o Anjo do Senhor apareceu a Gideão e lhe disse: O Senhor está com você, poderoso guerreiro. Juízes 6:12",
+r_text[17] =     "🙏👉Jesus olhou para eles e respondeu: Para o homem é impossível, mas para Deus todas as coisas são possíveis. Mateus 19:26",
+r_text[18] =     "🙏👉Jesus respondeu: O que é impossível para os homens é possível para Deus. Lucas 18:27",
+r_text[19] =    "🙏👉Portanto, eu digo: Tudo o que vocês pedirem em oração, creiam que já o receberam, e assim sucederá. Marcos 11:24"
+    ]
+var i = Math.floor(19*Math.random())
+document.getElementById("sorte").innerHTML = "<p>" + r_text[i] + "</p>";
+
+ 
+
+}
+
+
+
+
+
+
+  </script>
 
 </div>
-<form>
-  <input value="Ver mensagem" onclick="obterFrase();" type="button"> 
 
+
+
+<form>
+  <input value="Enviar uma mensagem" onclick="obterFrase();" type="button"> 
+  <input value="Ver mensagem" onclick="myFunction();" type="button"> 
   
 
   </form>
@@ -113,7 +158,7 @@ var url =  window.open( zap +  ('Olá  ' )     +mensagem  + r_text[i] +  ('🙏�
 
 </body>
 </html>
-<footer>
+
 <!-- LOMADEE - BEGIN -->
 <script src="//ad.lomadee.com/banners/script.js?sourceId=36271858&dimension=7&height=50&width=320&method=0" type="text/javascript" language="javascript"></script>
 <!-- LOMADEE - END -->
