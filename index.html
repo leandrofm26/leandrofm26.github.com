@@ -89,7 +89,7 @@
     var name = window.prompt('Qual seu Nome?')
 
     
-var mensagem = ('Mensagem de *'  + name +'* para você  '  ) 
+var mensagem = ('Mensagem de *'  + name +'* para você  '  ) +r_text[i]
 document.write('Olá, ' +name )  
 var url1 =  ( '  my-all.top/?' ) +name
 
@@ -124,7 +124,7 @@ document.getElementById("sorte").innerHTML = "<p>" + r_text[i] + "</p>";
 
 alert ('Olá, ' + mensagem + r_text[i]     + url1   )
 var zap = "https://api.whatsapp.com/send?text="
-var url =  window.open( zap +  ('Olá  ' )     +mensagem  +r_text[i] + ('🙏👉')  +  url1   ) 
+var url =  window.open( zap +  ('Olá  ' )     +mensagem   + ('🙏👉')  +  url1   ) 
 
 }
 
